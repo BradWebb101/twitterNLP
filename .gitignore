@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#.env file
+*.env
+
+#Not sure but removing 
+.DS_Store
+.gitignore
+.vscode/settings.json
+
 # C extensions
 *.so
 
