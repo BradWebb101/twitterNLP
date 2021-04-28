@@ -35,6 +35,7 @@ class twitter_api():
             if e.message[0]['code'] == '429': 
                 time.sleep(900)
                 twitter_hashtags_requests()
+                
             else:
                 print(e)
             
@@ -46,6 +47,7 @@ class twitter_api():
             if e.message[0]['code'] == '429': 
                 time.sleep(900)
                 twitter_user_requests()
+
             else:
                 print(e)
 
