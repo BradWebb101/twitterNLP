@@ -1,5 +1,7 @@
 # twitterNLP
 
+## This coding project is still under construction
+
 ## Required environment variabels in .env file 
  - ACCESS_TOKEN
  - ACCESS_TOKEN_SECRET
